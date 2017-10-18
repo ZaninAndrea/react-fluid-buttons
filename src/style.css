@@ -1,0 +1,26 @@
+.fluid-button-highglight {
+    background-color: #073642;
+    position: absolute;
+    opacity: 1;
+    z-index: -1;
+}
+
+.fluid-button{
+    flex-grow: 1;
+    height:40px;
+    text-align: center;
+    color: #93a1a1;
+    background-color: transparent;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.fluid-button-container{
+    position:relative;
+    z-index: 1;
+    width:100%;
+    height:40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #001f27;
+}
