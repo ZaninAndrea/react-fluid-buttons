@@ -1,6 +1,6 @@
 {
   "name": "react-fluid-buttons",
-  "version": "0.8.4",
+  "version": "1.0.2",
   "description": "Fluid button groups in react",
   "main": "build/index.js",
   "repository": "https://github.com/ZaninAndrea/react-fluid-buttons",
