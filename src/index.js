@@ -40,7 +40,7 @@ class ButtonGroup extends Component {
 class Button extends Component {
     render() {
         const { children, className, onMouseOver } = this.props
-        const btnClass = className ? "fluid-button-container " + className : "fluid-button-container"
+        const btnClass = className ? "fluid-button " + className : "fluid-button"
         return (
             <div {...this.props} className={btnClass} onMouseOver={() => onMouseOver && onMouseOver(this.selectedRef)} ref={(elem) => { this.selectedRef = elem }}>
                 {children}
