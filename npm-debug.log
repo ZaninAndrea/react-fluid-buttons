@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'build' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.1
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info lifecycle react-fluid-buttons@1.0.2~prebuild: react-fluid-buttons@1.0.2
+6 silly lifecycle react-fluid-buttons@1.0.2~prebuild: no script for prebuild, continuing
+7 info lifecycle react-fluid-buttons@1.0.2~build: react-fluid-buttons@1.0.2
+8 verbose lifecycle react-fluid-buttons@1.0.2~build: unsafe-perm in lifecycle true
+9 verbose lifecycle react-fluid-buttons@1.0.2~build: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/mnt/d/Git/react-fluid-buttons/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/Haskell Platform/8.0.2-a/lib/extralibs/bin:/mnt/c/Program Files/Haskell Platform/8.0.2-a/bin:/mnt/c/ProgramData/Oracle/Java/javapath_target_790250:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Calibre2:/mnt/c/Go/bin:/mnt/c/Program Files/Hugo/bin:/mnt/c/Program Files (x86)/Yarn/bin:/mnt/c/Program Files/Haskell Platform/8.0.2-a/mingw/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit:/mnt/c/Program Files/MiKTeX 2.9/miktex/bin/x64:/mnt/c/Program Files/nodejs:/mnt/c/Users/zanin/AppData/Roaming/local/bin:/mnt/c/Users/zanin/AppData/Local/Microsoft/WindowsApps:/mnt/d/Projects/GO/bin:/mnt/c/Program Files/Hugo/bin:/mnt/c/Users/zanin/AppData/Local/atom/bin:/mnt/c/Users/zanin/AppData/Local/Yarn/bin:/mnt/c/Users/zanin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/zanin/AppData/Roaming/npm:/opt/go/bin:/mnt/d/Projects/GO/bin
+10 verbose lifecycle react-fluid-buttons@1.0.2~build: CWD: /mnt/d/Git/react-fluid-buttons
+11 silly lifecycle react-fluid-buttons@1.0.2~build: Args: [ '-c', 'webpack' ]
+12 silly lifecycle react-fluid-buttons@1.0.2~build: Returned: code: 2  signal: null
+13 info lifecycle react-fluid-buttons@1.0.2~build: Failed to exec build script
+14 verbose stack Error: react-fluid-buttons@1.0.2 build: `webpack`
+14 verbose stack Exit status 2
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:891:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid react-fluid-buttons@1.0.2
+16 verbose cwd /mnt/d/Git/react-fluid-buttons
+17 error Linux 4.4.0-43-Microsoft
+18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "build"
+19 error node v6.11.1
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error react-fluid-buttons@1.0.2 build: `webpack`
+22 error Exit status 2
+23 error Failed at the react-fluid-buttons@1.0.2 build script 'webpack'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the react-fluid-buttons package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     webpack
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs react-fluid-buttons
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls react-fluid-buttons
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
