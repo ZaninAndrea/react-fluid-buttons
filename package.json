@@ -1,33 +1,33 @@
 {
-  "name": "react-fluid-buttons",
-  "version": "1.0.2",
-  "description": "Fluid button groups in react",
-  "main": "build/index.js",
-  "repository": "https://github.com/ZaninAndrea/react-fluid-buttons",
-  "peerDependencies": {
-    "react": "^15.5.4"
-  },
-  "dependencies": {
-    "react": "^15.5.4",
-    "webpack": "^2.6.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --watch",
-    "build": "webpack"
-  },
-  "author": {
-    "name": "andreazanin",
-    "email": "99.zanin@gmail.com"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-core": "^6.24.1",
-    "babel-loader": "^7.0.0",
-    "babel-plugin-transform-object-rest-spread": "^6.23.0",
-    "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.5.1",
-    "css-loader": "^0.28.7",
-    "style-loader": "^0.18.2"
-  }
+    "name": "react-fluid-buttons",
+    "version": "1.0.3",
+    "description": "Fluid button groups in react",
+    "main": "build/index.js",
+    "repository": "https://github.com/ZaninAndrea/react-fluid-buttons",
+    "peerDependencies": {
+        "react": "^15.5.4"
+    },
+    "dependencies": {
+        "react": "^15.5.4",
+        "webpack": "^2.6.1"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack --watch",
+        "build": "webpack"
+    },
+    "author": {
+        "name": "andreazanin",
+        "email": "99.zanin@gmail.com"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.24.1",
+        "babel-core": "^6.24.1",
+        "babel-loader": "^7.0.0",
+        "babel-plugin-transform-object-rest-spread": "^6.23.0",
+        "babel-plugin-transform-react-jsx": "^6.24.1",
+        "babel-preset-env": "^1.5.1",
+        "css-loader": "^0.28.7",
+        "style-loader": "^0.18.2"
+    }
 }
